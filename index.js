@@ -1,13 +1,16 @@
-const artists= [
-  { 
+const artists = [
+  {
+    id: '0',
     name: "Amedeo Modigliani",
     years: "1884 - 1920",
     genre: "Expressionism",
     nationality: "Italian",
     bio: "Amedeo Clemente Modigliani (Italian pronunciation: [ameˈdɛːo modiʎˈʎaːni]; 12 July 1884 – 24 January 1920) was an Italian Jewish painter and sculptor who worked mainly in France. He is known for portraits and nudes in a modern style characterized by elongation of faces, necks, and figures that were not received well during his lifetime but later found acceptance. Modigliani spent his youth in Italy, where he studied the art of antiquity and the Renaissance. In 1906 he moved to Paris, where he came into contact with such artists as Pablo Picasso and Constantin Brâncuși. By 1912 Modigliani was exhibiting highly stylized sculptures with Cubists of the Section d'Or group at the Salon d'Automne.",
     "wikipedia": "http://en.wikipedia.org/wiki/Amedeo_Modigliani",
-    "paintings": "193"},
+    "paintings": "193"
+  },
   {
+    id: '1',
     name: "Vasiliy Kandinskiy",
     years: "1866 - 1944",
     genre: "Expressionism,Abstractionism",
@@ -17,6 +20,7 @@ const artists= [
     paintings: "88"
   },
   {
+    id: '2',
     name: "Diego Rivera",
     years: "1886 - 1957",
     genre: "Social Realism,Muralism",
@@ -26,6 +30,7 @@ const artists= [
     paintings: "70"
   },
   {
+    id: '3',
     name: "Claude Monet",
     years: "1840 - 1926",
     genre: "Impressionism",
@@ -35,6 +40,7 @@ const artists= [
     paintings: "73"
   },
   {
+    id: '4',
     name: "Rene Magritte",
     years: "1898 - 1967",
     genre: "Surrealism,Impressionism",
@@ -44,6 +50,7 @@ const artists= [
     paintings: "194"
   },
   {
+    id: '5',
     name: "Salvador Dali",
     years: "1904 - 1989",
     genre: "Surrealism",
@@ -53,6 +60,7 @@ const artists= [
     paintings: "139"
   },
   {
+    id: '6',
     name: "Edouard Manet",
     years: "1832 - 1883",
     genre: "Realism,Impressionism",
@@ -62,6 +70,7 @@ const artists= [
     paintings: "90"
   },
   {
+    id: '7',
     name: "Andrei Rublev",
     years: "1360 - 1430",
     genre: "Byzantine Art",
@@ -71,15 +80,17 @@ const artists= [
     paintings: 99
   },
   {
+    id: '8',
     name: "Vincent van Gough",
     years: "1853 - 1890",
     genre: "Post-Impressionism",
     nationality: "Dutch",
     bio: "Vincent Willem van Gogh (Dutch: [ˈvɪnsɛnt ˈʋɪləm vɑŋ ˈɣɔx] (listen); 30 March 1853 – 29 July 1890) was a Dutch Post-Impressionist painter who is among the most famous and influential figures in the history of Western art. In just over a decade he created about 2,100 artworks, including around 860 oil paintings, most of them in the last two years of his life. They include landscapes, still lifes, portraits and self-portraits, and are characterised by bold colours and dramatic, impulsive and expressive brushwork that contributed to the foundations of modern art. However, he was not commercially successful, and his suicide at 37 followed years of mental illness and poverty.",
     wikipedia: "http://en.wikipedia.org/wiki/Vincent_van_Gogh",
-   paintings: "877"
+    paintings: "877"
   },
   {
+    id: '9',
     name: "Gustav Klimt",
     years: "1862 - 1918",
     genre: "Symbolism,Art Nouveau",
@@ -89,6 +100,7 @@ const artists= [
     paintings: "117"
   },
   {
+    id: '10',
     name: "Hieronymus Bosch",
     years: "1450 - 1516",
     genre: "Northern Renaissance",
@@ -98,6 +110,7 @@ const artists= [
     paintings: "137"
   },
   {
+    id: '11',
     name: "Kazimir Malevich",
     years: "1879 - 1935",
     genre: "Suprematism",
@@ -107,6 +120,7 @@ const artists= [
     paintings: "126"
   },
   {
+    id: '12',
     name: "Mikhail Vrubel",
     years: "1856 - 1910",
     genre: "Symbolism",
@@ -116,6 +130,7 @@ const artists= [
     paintings: 171
   },
   {
+    id: '13',
     name: "Pablo Picasso",
     years: "1881 - 1973",
     genre: "Cubism",
@@ -125,6 +140,7 @@ const artists= [
     paintings: "439"
   },
   {
+    id: '14',
     name: "Peter Paul Rubens",
     years: "1577 - 1640",
     genre: "Baroque",
@@ -134,6 +150,7 @@ const artists= [
     paintings: "141"
   },
   {
+    id: '15',
     name: "Pierre-Auguste Renoir",
     years: "1841 - 1919",
     genre: "Impressionism",
@@ -143,6 +160,7 @@ const artists= [
     paintings: "336"
   },
   {
+    id: '17',
     name: "Francisco Goya",
     years: "1746 - 1828",
     genre: "Romanticism",
@@ -152,6 +170,7 @@ const artists= [
     paintings: "291"
   },
   {
+    id: '18',
     name: "Frida Kahlo",
     years: "1907 - 1954",
     genre: "Primitivism,Surrealism",
@@ -161,6 +180,7 @@ const artists= [
     paintings: "120"
   },
   {
+    id: '19',
     name: "El Greco",
     years: "1541 - 1614",
     genre: "Mannerism",
@@ -170,6 +190,7 @@ const artists= [
     paintings: "87"
   },
   {
+    id: '20',
     name: "Albrecht Dürer",
     years: "1471 - 1528",
     genre: "Northern Renaissance",
@@ -192,13 +213,13 @@ console.log("Taks 1:", artists[0].name);
 
 
 //(2) Bio of the third artist (2nd index) in the array 
-//console.log('Task 2:' , artist[2],'bio');
+console.log('Task 1a:', artists[2].bio);
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 (no function needed) 
 There is a typo in your dataset 😱 The 9th artist, Vincent Van Gogh is currently Vincent Van Dough. Fix this issue and console.log() to check your work. */
-////console.log("Taks 2:" artists[0].name);
+console.log("Taks 2:", artists[10].name);
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀  
@@ -209,10 +230,11 @@ Use getArtistByIndex to do the following:
 
 Example, if getArtistByIndex is invoked with the artists array and the number 0, it will return `the artist at index 0 is Amedeo Modigliani` */
 
-function getArtistByIndex(array, number, index){
-  
+function getArtistsByIndex(array, number) {
+  return `'the artist at id number ${array[number].id} is named ${array[number].name}`;
 }
 
+console.log('Task 4:', getArtistsByIndex(0));
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
@@ -224,11 +246,9 @@ Example born in 1901 and died in 1959 - included -- born in 1889 and died in 192
 If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 // Hint - Look up the .split() method
 
-function get20s(/*Your Code Here*/) {
-  /*Your Code Here*/
-}
+//function get20s(array)
 
-
+//I will need to get more familiar with the .split() method 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Use removeArtist to do the following:
@@ -239,10 +259,13 @@ Use removeArtist to do the following:
 
 For example, if removeArtist is invoked with the artists array and the number 0, it will remove Amedeo Modigliani from our dataset and return the number 19. */
 
-function removeArtist(/*Your Code Here*/) {
-  /*Your Code Here*/
+function removeArtist(array, number) {
+  return `removing ${array[array.lenght - 1.].name}`
 }
 
+console.log('Task 5:', removeArtist(0));
+
+// I think this is supposed to be the .slice() method but I'm not too sure how to do that
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Use addArtist to do the following: 
@@ -260,11 +283,13 @@ Use addArtist to do the following:
 
 Example: addArtist(artists) should return the artists array with the above object added to the end of the array. */
 
-function addArtist(/*Your Code Here*/) {
-  /*Your Code Here*/
+function addArtist(array) {
+  return `${array[array.push]Cindy}`
 }
 
+console.log('Task 6:');
 
+//I need to practice pushing larger amounts of information
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Use lotsOfArt to do the following: 
@@ -273,7 +298,7 @@ Use lotsOfArt to do the following:
 
 For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte", ... "Albrecht Dürer"]*/
 
-function lotsOfArt(/*Your Code Here*/) {
+function lotsOfArt(array) {
   /*Your Code Here*/
 }
 
