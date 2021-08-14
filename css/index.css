@@ -19,7 +19,11 @@ font-size: 100%;
 font: inherit;  
 vertical-align: baseline;  
 }
+
+@media only screen and (max-width:500px)
+
 /*GENERAL STYLES*/
+
 html{
     font-size:62.5%;
 }
